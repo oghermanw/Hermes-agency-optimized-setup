@@ -1,0 +1,2 @@
+description: Private eBook translation worker. Uses local Ollama / Qwen3:8B only.
+description_auto: false

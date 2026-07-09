@@ -1,0 +1,35 @@
+.DS_Store
+
+# Secret material. Never commit live credentials.
+.env
+*.env
+**/.env
+auth.json
+*.key
+*.pem
+*.token
+*token*
+*secret*
+
+# Runtime data and bulky/private backups.
+backups/
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bak
+*.backup
+
+# Hermes runtime state, queues, logs, sessions, and caches.
+logs/
+sessions/
+cache/
+*.log
+*.pid
+*.lock
+__pycache__/
+*.pyc
+
+# Local editor/system noise.
+.idea/
+.vscode/

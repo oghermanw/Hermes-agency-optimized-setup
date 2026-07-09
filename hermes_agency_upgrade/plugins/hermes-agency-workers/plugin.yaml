@@ -1,0 +1,7 @@
+name: hermes-agency-workers
+version: 1.0.0
+description: "Hermes Agency local/worker slash commands for VTT, eBook translation, infographic briefs, and GLM coding delegation."
+author: hermes-agency
+kind: standalone
+platforms:
+  - macos

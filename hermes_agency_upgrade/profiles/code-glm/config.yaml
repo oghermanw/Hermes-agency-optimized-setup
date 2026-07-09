@@ -1,0 +1,16 @@
+model:
+  provider: openrouter
+  default: z-ai/glm-5.2
+  base_url: ''
+fallback_providers: []
+toolsets: []
+agent:
+  max_turns: 20
+terminal:
+  backend: local
+  cwd: ~/AI/hermes-workspace
+skills:
+  external_dirs: []
+  disabled: []
+gateway:
+  strict: false

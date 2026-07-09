@@ -1,0 +1,16 @@
+model:
+  provider: custom
+  default: qwen3:8b
+  base_url: http://127.0.0.1:11434/v1
+fallback_providers: []
+toolsets: []
+agent:
+  max_turns: 20
+terminal:
+  backend: local
+  cwd: ~/AI/hermes-workspace
+skills:
+  external_dirs: []
+  disabled: []
+gateway:
+  strict: false
